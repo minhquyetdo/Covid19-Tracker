@@ -90,7 +90,7 @@ Write the JSON data to a file using Python's json module or any other preferred 
 Open a terminal and navigate to the project directory.
 Run the Spider
 ```cli
-scrapy crawl covidcase
+scrapy crawl covidcase -o [your_path]/newcases.json
 ```
 
 **Handling Pagination**
