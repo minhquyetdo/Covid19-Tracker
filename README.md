@@ -67,9 +67,9 @@ Open the spider file covidcase.py in a text editor.
 
 Configuring the Spider (Optional) (The website may change by time)
 
-Set the allowed domains: allowed_domains = ['cdc.gov']
+Set the allowed domains: allowed_domains = ['covid19.gov.vn']
 
-Specify the start URL: start_urls = ['https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html']
+Specify the start URL: start_urls = ['https://covid19.gov.vn/big-story/cap-nhat-dien-bien-dich-covid-19-moi-nhat-hom-nay-171210901111435028.htm']
 
 **Extracting and Cleaning Data**
 
