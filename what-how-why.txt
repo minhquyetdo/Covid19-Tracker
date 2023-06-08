@@ -1,0 +1,24 @@
+    What does this data tracker do?
+    The COVID-19 Case Tracker is a tool designed to track and collect information on new COVID-19 cases. It retrieves data from the national CDC website and provides insights into the total new cases reported each day, as well as the new cases in each city.
+
+    How does this work well?
+    The data tracker leverages the Scrapy framework, a powerful web scraping tool in Python, to extract the relevant data from the CDC website. Scrapy allows us to navigate the website, follow links, and retrieve specific information using XPath or CSS selectors. By targeting the necessary HTML elements, such as case numbers and city-specific data, the tracker can extract the required information accurately.
+
+Additionally, the tracker utilizes various data cleaning techniques to filter and refine the extracted data. This ensures that the final dataset is reliable, consistent, and suitable for analysis. By applying filters, removing unwanted characters, and handling missing values, the tracker improves the quality of the collected data.
+
+Furthermore, the tracker stores the collected data in JSON format, which offers a lightweight and structured data storage solution. JSON is widely supported by various programming languages and provides an easily readable and interoperable format for data exchange and analysis.
+
+    Why does it fulfill data collector requirements?
+    The COVID-19 Case Tracker fulfills the requirements of a data collector for several reasons:
+
+a. Extraction and Transformation: The tracker effectively extracts data from the CDC website by utilizing Scrapy and navigating through the required web pages. It applies data cleaning techniques to transform the extracted data into a usable and reliable format.
+
+b. Accuracy and Completeness: By directly scraping the national CDC website, the tracker ensures that the collected data is up-to-date and comprehensive. It captures the latest information on new COVID-19 cases at the national level and provides insights into specific cities.
+
+c. Customization and Flexibility: The tracker allows customization to target specific elements of interest, such as total new cases and city-specific data. This flexibility enables data collection tailored to specific requirements or research objectives.
+
+d. Automation and Scalability: The tracker can be scheduled to run at regular intervals, ensuring the continuous collection of updated COVID-19 case data. This automation makes it scalable and efficient for long-term data tracking and analysis.
+
+e. Data Storage and Format: The tracker stores the collected data in JSON format, which is widely supported and easily integrated with various data analysis tools and databases. JSON provides a structured and portable format for storing and sharing the collected data.
+
+Overall, the COVID-19 Case Tracker fulfills the requirements of a data collector by effectively extracting, transforming, and storing COVID-19 case data from the national CDC website. It provides accurate and up-to-date information in a standardized format, enabling further analysis and insights into the progression of the pandemic.
